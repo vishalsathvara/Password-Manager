@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844C7CF92D72CF8600160A22 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C7CF82D72CF8600160A22 /* CoreDataManager.swift */; };
+		844C7CFB2D72CFB700160A22 /* PasswordEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C7CFA2D72CFB700160A22 /* PasswordEntity.swift */; };
+		844C7CFD2D72CFD300160A22 /* EncryptionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C7CFC2D72CFD300160A22 /* EncryptionHelper.swift */; };
+		844C7CFF2D72CFE900160A22 /* PasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C7CFE2D72CFE900160A22 /* PasswordViewModel.swift */; };
+		846B89802D72D728004EB8D9 /* EditPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B897F2D72D728004EB8D9 /* EditPasswordView.swift */; };
+		846B89822D7328C1004EB8D9 /* Biometric Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B89812D7328C1004EB8D9 /* Biometric Authentication.swift */; };
+		84B6FAAD2D71D0490083F90F /* Password_ManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6FAAC2D71D0490083F90F /* Password_ManagerApp.swift */; };
+		84B6FAB12D71D04F0083F90F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B6FAB02D71D04F0083F90F /* Assets.xcassets */; };
+		84B6FAB42D71D04F0083F90F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B6FAB32D71D04F0083F90F /* Preview Assets.xcassets */; };
+		84B6FABB2D71D5B20083F90F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6FABA2D71D5B20083F90F /* HomeView.swift */; };
+		84B9DBF82D71ECF900E95830 /* AddPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9DBF72D71ECF900E95830 /* AddPasswordView.swift */; };
+		84B9DBFA2D71ED2600E95830 /* PasswordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9DBF92D71ED2600E95830 /* PasswordDetailView.swift */; };
+		84DE6F1A2D743A5200529910 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84DE6F192D743A5200529910 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		844C7CF82D72CF8600160A22 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		844C7CFA2D72CFB700160A22 /* PasswordEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordEntity.swift; sourceTree = "<group>"; };
+		844C7CFC2D72CFD300160A22 /* EncryptionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionHelper.swift; sourceTree = "<group>"; };
+		844C7CFE2D72CFE900160A22 /* PasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewModel.swift; sourceTree = "<group>"; };
+		846B897F2D72D728004EB8D9 /* EditPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPasswordView.swift; sourceTree = "<group>"; };
+		846B89812D7328C1004EB8D9 /* Biometric Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Biometric Authentication.swift"; sourceTree = "<group>"; };
+		84B6FAA92D71D0490083F90F /* Password Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B6FAAC2D71D0490083F90F /* Password_ManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password_ManagerApp.swift; sourceTree = "<group>"; };
+		84B6FAB02D71D04F0083F90F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B6FAB32D71D04F0083F90F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84B6FABA2D71D5B20083F90F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		84B9DBF72D71ECF900E95830 /* AddPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPasswordView.swift; sourceTree = "<group>"; };
+		84B9DBF92D71ED2600E95830 /* PasswordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDetailView.swift; sourceTree = "<group>"; };
+		84DE6F192D743A5200529910 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B6FAA62D71D0490083F90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B6FAA02D71D0490083F90F = {
+			isa = PBXGroup;
+			children = (
+				84B6FAAB2D71D0490083F90F /* Password Manager */,
+				84B6FAAA2D71D0490083F90F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B6FAAA2D71D0490083F90F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B6FAA92D71D0490083F90F /* Password Manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B6FAAB2D71D0490083F90F /* Password Manager */ = {
+			isa = PBXGroup;
+			children = (
+				84B6FAAC2D71D0490083F90F /* Password_ManagerApp.swift */,
+				84B6FABA2D71D5B20083F90F /* HomeView.swift */,
+				84B9DBF72D71ECF900E95830 /* AddPasswordView.swift */,
+				84B9DBF92D71ED2600E95830 /* PasswordDetailView.swift */,
+				846B897F2D72D728004EB8D9 /* EditPasswordView.swift */,
+				844C7CF82D72CF8600160A22 /* CoreDataManager.swift */,
+				844C7CFA2D72CFB700160A22 /* PasswordEntity.swift */,
+				846B89812D7328C1004EB8D9 /* Biometric Authentication.swift */,
+				844C7CFC2D72CFD300160A22 /* EncryptionHelper.swift */,
+				844C7CFE2D72CFE900160A22 /* PasswordViewModel.swift */,
+				84DE6F192D743A5200529910 /* README.md */,
+				84B6FAB02D71D04F0083F90F /* Assets.xcassets */,
+				84B6FAB22D71D04F0083F90F /* Preview Content */,
+			);
+			path = "Password Manager";
+			sourceTree = "<group>";
+		};
+		84B6FAB22D71D04F0083F90F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84B6FAB32D71D04F0083F90F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B6FAA82D71D0490083F90F /* Password Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B6FAB72D71D04F0083F90F /* Build configuration list for PBXNativeTarget "Password Manager" */;
+			buildPhases = (
+				84B6FAA52D71D0490083F90F /* Sources */,
+				84B6FAA62D71D0490083F90F /* Frameworks */,
+				84B6FAA72D71D0490083F90F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Password Manager";
+			productName = "Password Manager";
+			productReference = 84B6FAA92D71D0490083F90F /* Password Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B6FAA12D71D0490083F90F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					84B6FAA82D71D0490083F90F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 84B6FAA42D71D0490083F90F /* Build configuration list for PBXProject "Password Manager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B6FAA02D71D0490083F90F;
+			productRefGroup = 84B6FAAA2D71D0490083F90F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B6FAA82D71D0490083F90F /* Password Manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B6FAA72D71D0490083F90F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DE6F1A2D743A5200529910 /* README.md in Resources */,
+				84B6FAB42D71D04F0083F90F /* Preview Assets.xcassets in Resources */,
+				84B6FAB12D71D04F0083F90F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B6FAA52D71D0490083F90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844C7CFD2D72CFD300160A22 /* EncryptionHelper.swift in Sources */,
+				846B89802D72D728004EB8D9 /* EditPasswordView.swift in Sources */,
+				846B89822D7328C1004EB8D9 /* Biometric Authentication.swift in Sources */,
+				84B6FABB2D71D5B20083F90F /* HomeView.swift in Sources */,
+				84B6FAAD2D71D0490083F90F /* Password_ManagerApp.swift in Sources */,
+				84B9DBFA2D71ED2600E95830 /* PasswordDetailView.swift in Sources */,
+				844C7CF92D72CF8600160A22 /* CoreDataManager.swift in Sources */,
+				844C7CFB2D72CFB700160A22 /* PasswordEntity.swift in Sources */,
+				84B9DBF82D71ECF900E95830 /* AddPasswordView.swift in Sources */,
+				844C7CFF2D72CFE900160A22 /* PasswordViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84B6FAB52D71D04F0083F90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84B6FAB62D71D04F0083F90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B6FAB82D71D04F0083F90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Password Manager/Preview Content\"";
+				DEVELOPMENT_TEAM = 268FV4FCPV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.app.Password-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84B6FAB92D71D04F0083F90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Password Manager/Preview Content\"";
+				DEVELOPMENT_TEAM = 268FV4FCPV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.app.Password-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B6FAA42D71D0490083F90F /* Build configuration list for PBXProject "Password Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B6FAB52D71D04F0083F90F /* Debug */,
+				84B6FAB62D71D04F0083F90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B6FAB72D71D04F0083F90F /* Build configuration list for PBXNativeTarget "Password Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B6FAB82D71D04F0083F90F /* Debug */,
+				84B6FAB92D71D04F0083F90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B6FAA12D71D0490083F90F /* Project object */;
+}
